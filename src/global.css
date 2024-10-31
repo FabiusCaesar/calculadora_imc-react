@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body, html {
+    min-height: 100vh;
+    overflow-x: hidden; /* Adicionado para impedir rolagem horizontal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-fundo);
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px; /* Pequeno padding para evitar que o conteúdo encoste na borda */
+}
+
+/* Variáveis de cor */
+:root {
+    --cor-fundo: #000000; /* Cor de fundo */
+    --cor-fonte: #ffffff; /* Cor principal da fonte */
+    --cor-fundo-input: rgba(0, 0, 0, 0.5); /* Fundo semitransparente do input */
+    --cor-fundo-input-ativo: rgba(0, 0, 0, 0.3); /* Fundo semitransparente do input ativo */
+    --cor-botao: #504e4e; /* Cor de fundo padrão do botão */
+    --cor-botao-hover: #8b8989; /* Cor de fundo do botão ao passar o mouse */
+    --cor-botao-ativo: #d4d0d0; /* Cor do botão ao clicar */
+}

@@ -1,0 +1,23 @@
+.abaixoDoPeso {
+    color: #8b9dc3;
+}
+
+.pesoNormal {
+    color: #5cb85c;
+}
+
+.sobrepeso {
+    color: #f0ad4e;
+}
+
+.obesidadeGrauI {
+    color: #f7a35c;
+}
+
+.obesidadeGrauII {
+    color: #d9534f;
+}
+
+.obesidadeGrauIII {
+    color: #c9302c;
+}

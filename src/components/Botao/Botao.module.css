@@ -1,0 +1,25 @@
+.botaoLimpar {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--cor-fonte);
+    background-color: var(--cor-botao);
+}
+
+button:hover {
+    background-color: var(--cor-botao-hover);
+    color: #252525;
+    transition: .5s;
+}
+
+button:active {
+    background-color: var(--cor-botao-ativo);
+    transition: 0s;
+}

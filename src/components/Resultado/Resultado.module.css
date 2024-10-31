@@ -1,0 +1,26 @@
+.resultado {
+    padding: 60px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../assets/images/rocks.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+
+p {
+    text-align: center;
+    font-size: 32px;
+    color: var(--cor-fonte);
+}
+
+@media (max-width: 768px) {
+    .resultado {
+        padding: 20px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,54 @@
+h1 {
+    padding-top: 80px;
+    text-align: center;
+    color: var(--cor-fonte);
+}
+
+h3 {
+    padding-bottom: 60px;
+    text-align: center;
+    color: var(--cor-fonte);
+}
+
+input {
+    font-size: 24px;
+    border: none;
+    text-align: center;
+    background-color: var(--cor-fundo-input);
+    color: var(--cor-fonte);
+}
+
+input:focus {
+    outline: none;
+    background-color: var(--cor-fundo-input-ativo);
+}
+
+.inputAltura,
+.inputMassa {
+    padding: 60px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inputAltura {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../assets/images/tape-measure.jpg);
+}
+
+.inputMassa {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../assets/images/balanca.jpg);
+}
+
+@media (max-width: 768px) {
+    .inputAltura,
+    .inputMassa {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
